@@ -3,12 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "node index.js",
+=======
+>>>>>>> ff62002 (Initial commit)
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+<<<<<<< HEAD
   "description": ""
+=======
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+>>>>>>> ff62002 (Initial commit)
 }
