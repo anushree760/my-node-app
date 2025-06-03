@@ -3,7 +3,7 @@ name: Trigger Render Deploy
 on:
   push:
     branches:
-      - main  # or 'master' depending on your branch
+      - main
 
 jobs:
   deploy:
@@ -13,3 +13,4 @@ jobs:
       - name: Trigger Render Deploy Hook
         run: |
           curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
+
