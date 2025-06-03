@@ -7,5 +7,7 @@
     "build": "echo 'No build step defined'",
     "test": "echo 'No tests defined'"
   },
-  "dependencies": {}
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
