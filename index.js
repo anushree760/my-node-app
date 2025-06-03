@@ -1,14 +1,4 @@
-const http = require('http');
-
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World from CI/CD!\n');
-});
-
-server.listen(3000, () => {
-  console.log('Server running on port 3000');
-});const express = require("express");
+const express = require("express");
 const app = express();
 const port = process.env.PORT || 3000;
 
@@ -46,7 +36,7 @@ app.get("/", (req, res) => {
         </style>
       </head>
       <body>
-        <h1>Hello from  👋</h1>
+        <h1>Hello from 👋</h1>
         <p>This is a styled Node.js + Express app deployed with CI/CD on Render.</p>
         <footer>© Project</footer>
       </body>
